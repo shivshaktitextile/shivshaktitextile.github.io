@@ -44,19 +44,6 @@ header h1 a:hover {
   transition: all 0.3s ease;
 }
 
-.theme-btn {
-  background: none;
-  border: none;
-  font-size: 22px;
-  cursor: pointer;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #000;
-  transition: color 0.3s ease;
-}
-
 main {
   padding: 10px;
 }
@@ -107,79 +94,6 @@ footer {
   font-weight: bold;
 }
 
-body.dark-mode {
-  background-color: #1a1a1a;
-  color: #f1f1f1;
-}
-
-body.dark-mode a {
-  color: #ffffff;
-}
-
-body.dark-mode a:hover {
-  color: #007ACC;
-}
-
-body.dark-mode header h1 a {
-  color: #f1f1f1;
-}
-
-body.dark-mode header h1 a:hover {
-  color: #007ACC;
-}
-
-body.dark-mode .theme-btn {
-  color: #007ACC;
-}
-
-body.dark-mode footer {
-  color: #000;
-  background-color: #3399FF;
-}
-
-body.dark-mode #footer-link:hover {
-    text-decoration: underline;
-  color: #f1de12;
-}
-
-body.dark-mode #contact a {
-  color: #ffffff;
-}
-
-body.dark-mode #contact a:hover {
-  color: #007ACC;
-}
-
-@media (max-width: 768px) {
-  header {
-    padding: 10px;
-    justify-content: center;
-  }
-
-  header h1 {
-    font-size: 28px;
-  }
-
-  header h1 a {
-    font-size: 28px;
-    -webkit-text-stroke: 1px #004a87;
-    text-shadow: none;
-    white-space: nowrap;
-  }
-
-  .theme-btn {
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-  }
-
-  footer {
-    padding: 4px 0;
-  }
-}
-
 @media (max-width: 768px) {
   header {
     padding: 10px;
@@ -195,14 +109,6 @@ body.dark-mode #contact a:hover {
     -webkit-text-stroke: 1px #004a87;
     text-shadow: none;
     white-space: nowrap;
-  }
-
-  .theme-btn {
-    position: absolute;
-    right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
   }
 
   footer {
